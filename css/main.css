@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document
+@created By :@Vikash Jha 
+ */
+#part1_canvas
+{
+	float:left;
+	background:#CCC;
+	width:600px;
+}
+#dicebox
+{	
+	float:left;
+	width:25%;
+	margin-left:10px;
+	padding:10px 10px;
+	border:4px solid teal;
+	border-radius:4px;
+	color:teal;
+}
+
+#diceoutcome
+{	margin:5px;
+	float:left;
+	width:12.5%;
+	height:40px;
+	border:10px solid teal;
+	padding:20px 20px;	
+	font:40px Verdana, Geneva, sans-serif;
+	color:#066;
+}
+#diceplacement
+{	margin:5px;
+	float:right;
+	width:14.5%;
+	height:38px;
+	border:10px solid teal;
+	padding:20px 20px;	
+	font:35px Verdana, Geneva, sans-serif;
+	color:#066;
+}
+#label1{float:left;font-size:15px;font-weight:bold;} #label2{float:right;font-size:15px;font-weight:bold;}
+#part2
+{	float:right;
+	width:25%;
+	margin:0px;	
+	padding:10px 10px;
+	float:right;
+	width:auto;
+}
+
+#part3
+{
+	background:#C00;
+	float:right;
+	width:auto;
+	margin-top:6%;	
+	border:10px solid teal;
+	font-size:15px;
+    font-weight:bold;
+}
+.num
+{
+	border:solid 1px #006666;
+	margin-left:0px;
+	color:black;
+}
+ul{color:white;}
+.button1
+{	
+  display: inline-block;
+  width:auto;
+  height:auto;
+  padding:20px 20px;
+  background: #65a9d7;
+  border-radius:20px;
+  color: white;
+  font-size:15px;
+  font-weight:bold;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  
+  -webkit-transition:
+  }
+
+.button1:hover
+{
+	
+background:#3F9E4D;
+cursor:pointer;
+-webkit-transition:all 2s ;
+transform:rotate(360deg);
+-webkit-transform:rotate(360deg);
+}
+p{
+  font-weight: normal;
+  text-shadow: 0 -1px rgba(0,0,0,0.6);
+  font-size: 20px;
+  color:white;
+  line-height: 20px;
+  padding: 5px 15px;
+  }
+.button2
+{
+  display: inline-block;
+  width:auto;
+  height:auto;
+  padding:20px 20px;
+  border-radius:20px;
+  color: white;
+  font-size:15px;
+  font-weight:bold;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  
+}
